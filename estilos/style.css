@@ -63,6 +63,14 @@ main div.geo img {
     border-radius: 20px 20px 0px 0px;
 }
 
+main a {
+    text-decoration: none;
+}
+
+main a div.geo:hover {
+    box-shadow: 1px 1px 10px rgba(67, 3, 3, 0.232);
+}
+
 main div.geo p {
     font-family: var(--texto);
     margin: 20px 10px 10px 10px;
