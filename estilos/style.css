@@ -51,7 +51,7 @@ main h2 {
 
 main div.geo {
     background-color: rgb(134, 34, 34);
-    width: 300px;
+    max-width: 300px;
     height: 325px;
     display: block;
     margin: 20px auto;

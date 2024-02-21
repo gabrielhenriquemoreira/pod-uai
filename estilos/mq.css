@@ -5,10 +5,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 
-@media screen and (max-width: 600px) /*Telas com até 600px*/ {
-    
+@media screen and (min-width: 768px) {
+    main div.geo {
+        min-width: 600px;
+        min-height: 380px;
+    }
+
+    main div.geo img {
+        min-width: 600px;
+        border-radius: 20px 20px 0px 0px;
+        height: 300px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }    
+
+    nav a {
+        font-size: 19px;
+    }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-    
+@media screen and (min-width: 1020px) {
+    h2 {
+        font-size: 2.3em;
+    }
+
+    main div.geo {
+        min-width: 900px;
+        min-height: 650px;
+        /*position: relative;*/
+    }
+
+    main div.geo img {
+        /*display: block;
+        position: absolute;**/
+        /*min-width: 400px;*/
+        /*border-radius: 20px;*/
+        height: 400px;
+        float: right;
+        width: 60%;
+        height: 100%;
+
+        /*top: 18%;*/
+    }
+
+    main div.geo p {
+        font-family: var(--texto);
+        padding-top: 29%;
+        text-align: center;
+        color: white;
+        font-size: 1.2em;
+    }
 }
