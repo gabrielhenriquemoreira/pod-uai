@@ -143,7 +143,7 @@ div.homediv > a > div > p {
 
 main div#divum {
     background-image: url('../imagens/43446.jpg');
-    background-position: bottom left;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -181,7 +181,7 @@ div#divdois p{
 
 main div#divtres {
     background-color: rgb(120, 45, 45);
-    height: 350px;
+    height: 370px;
     transform: translate(0px, -30px);
 }
 
