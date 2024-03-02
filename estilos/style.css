@@ -91,28 +91,24 @@ body, html {
     background-color: rgb(255, 223, 223);
 }
 
-main div#divum img {
+/*main div#divum img {
     float: right;
     width: 60%;
-    height: 367px;
-}
+    
+}*/
 
 footer {
     margin-top: 40vh;
 }
 
 main div.homediv {
-    height: 367px;
-    background-color:rgb(255 138 138);
-    margin-bottom: 30px;
+    height: 267px;
+    /*background-color:rgb(255 138 138);*/
 }
 
-main div.homediv img {
-    box-shadow: -3px 5px 20px #9d9d9d
-}
-
-main div.homediv h2 {
+main div#divum h2 {
     margin-top: 0px;
+    font-size: 1.2em;
     padding-top: 108px;
 }
 
@@ -123,16 +119,17 @@ div.homediv > p {
     text-align: center;
 }
 
-div.homediv > div {
-    background-color: blue;
+div.homediv > a > div {
+    background-color: rgb(167, 55, 55);
+    background-image: linear-gradient(to top, rgb(167, 55, 55), rgb(168, 97, 97));
     max-width: 100vw;
     height: 60px;
     margin-left: 50%;
     position: relative;
-    margin: 10px auto;
+    /*margin: auto;*/
 }
 
-div.homediv > div > p {
+div.homediv > a > div > p {
     font-family: var(--titulo);
     font-weight: bolder;
     font-size: 1.5em;
@@ -144,3 +141,64 @@ div.homediv > div > p {
     transform: translate(-50%, -50%);
 }
 
+main div#divum {
+    background-image: url('../imagens/43446.jpg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main div#divum h2 {
+    background-color: rgba(221, 210, 210, 0.21);
+    background-image: linear-gradient(to right, rgba(221, 210, 210, 0.571), rgba(235, 235, 235, 0.744));
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 50%;
+    padding-top: 150px;
+}
+
+main div#divdois {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 0px;
+}
+
+div#divdois p{
+    color: rgb(118, 0, 0);
+    width: 80%;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+main div#divtres {
+    background-color: rgb(120, 45, 45);
+    height: 350px;
+    transform: translate(0px, -30px);
+}
+
+div#divtres > h2 {
+    color: rgb(45, 9, 9);
+}
+
+div#divtres h2 {
+    padding: 20px;
+}
+
+div#divtres div {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+div#divtres a {
+    text-decoration: none;
+    color: rgb(52, 7, 7);
+}
