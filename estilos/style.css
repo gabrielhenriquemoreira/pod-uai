@@ -52,7 +52,7 @@ main h2 {
 main div.geo {
     background-color: rgb(134, 34, 34);
     max-width: 300px;
-    height: 325px;
+    height: 400px;
     display: block;
     margin: 20px auto;
     border-radius: 20px;
@@ -71,9 +71,16 @@ main a div.geo:hover {
     box-shadow: 1px 1px 10px rgba(67, 3, 3, 0.232);
 }
 
+main div.geo audio.som {
+    width: 92%;
+    display: block;
+    margin: auto;
+
+}
+
 main div.geo p {
     font-family: var(--texto);
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 30px 10px;
     text-align: center;
     color: white;
     font-size: 1.2em;
@@ -81,4 +88,9 @@ main div.geo p {
 
 body, html {
     background-color: rgb(255, 223, 223);
+}
+
+main div#divum img {
+    float: right;
+    width: 60%;
 }
