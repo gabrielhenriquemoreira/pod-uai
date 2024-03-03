@@ -206,3 +206,33 @@ div#divtres a {
     text-decoration: none;
     color: rgb(52, 7, 7);
 }
+
+div#divquatro {
+    font-family: var(--texto);
+    height: 460px;
+
+    background-image: url('../imagens/pexels-pixabay-159206.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#divquatro p {
+    background-image: linear-gradient(to right, rgba(221, 210, 210, 0.571), rgba(235, 235, 235, 0.744));
+
+    width: 60%;
+    height: 100%;
+
+    color: black;
+    font-weight: bolder;
+
+    transform: translate(66.5%);
+
+    padding-top: 10%;
+}
+
+img.foto {
+    border-radius: 50%;
+    margin: 10px;
+}
