@@ -202,7 +202,7 @@ div#divtres a {
 
 div#divquatro {
     font-family: var(--texto);
-    height: 460px;
+    height: 500px;
 
     background-image: url('../imagens/pexels-pixabay-159206.jpg');
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ div#divquatro p {
 
     transform: translate(66.5%);
 
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 div.contato {
