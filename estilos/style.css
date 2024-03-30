@@ -212,13 +212,12 @@ div#divquatro {
 }
 
 div#divquatro p {
-    background-image: linear-gradient(to right, rgba(221, 210, 210, 0.571), rgba(235, 235, 235, 0.744));
+    background-image: linear-gradient(to right, rgba(221, 210, 210, 0.711), rgba(235, 235, 235, 0.715));
 
     width: 60%;
     height: 100%;
 
     color: black;
-    font-weight: bolder;
 
     transform: translate(66.5%);
 
