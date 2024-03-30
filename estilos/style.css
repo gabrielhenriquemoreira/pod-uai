@@ -229,13 +229,13 @@ div.contato {
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
-    height: 300px;
+    height: fit-content;
     position: relative;
 }
 
-div.contato > div.inside > img {
-    left: 50%;
-    float: left;
+div.contato img {
+    display: block;
+    margin: auto;
     /*transform: translate(0%, 55px);*/
 }
 
@@ -250,8 +250,6 @@ div.contato > p {
 
 div.inside {
     text-align: center;
-    position: absolute;  
-    top: 25%;
     
     
 }
