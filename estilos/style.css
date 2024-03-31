@@ -24,6 +24,8 @@ body, html {
     
 }*/
 
+
+
 header > h1 {
     font-family: var(--titulo);
     font-size: 5em;
@@ -51,6 +53,8 @@ header a {
 header a:hover {
     color: rgb(108, 27, 27);
 }
+
+
 
 main h2 {
     font-family: var(--titulo);
